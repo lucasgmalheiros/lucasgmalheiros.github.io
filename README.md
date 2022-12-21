@@ -1,0 +1,3 @@
+# First Website
+
+This is my first project on the web, developed with the help from Mozzila MDN Web Docs [tutorial](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This documentation is really amazing as it takes you from complete begginer at HTML, CSS and JavaScript and helps you through all the steps needed to develop a simple web site. Even with some previous knowledge of HMTL and CSS it was great to see all development phases in a few hours.

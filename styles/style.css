@@ -1,0 +1,64 @@
+/* This is how you declare colors as variables */
+:root {
+    --bg-brown: #1a0d00;
+}
+
+/* Adding custom fonts */
+@font-face {
+    font-family: "TTRoundsNeue";
+    src: url("../fonts/TTRoundsNeue-CondLight.ttf") format("truetype");
+}
+
+/* Style applied to the whole body of the document */
+body {
+    /* background-color: var(--bg-brown); */
+    background-image: url(../images/st-petersburg-opaque.jpg);
+    font-family: "TTRoundsNeue";
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 3px solid black;
+    line-height: 30px;
+}
+
+/* Main header */
+h1 {
+    font-size: 46px;
+}
+
+/* Books names */
+h2 {
+    font-size: 36px;
+}
+
+/* Books descriptions */
+p {
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Hyperlinks */
+a:link, a:visited, a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+/* Style applied to the class "image" */
+.image {
+    display: block;
+    font-size: 18px;
+}
+
+figcaption {
+    width: fit-content;
+    margin: 0 auto;
+}
